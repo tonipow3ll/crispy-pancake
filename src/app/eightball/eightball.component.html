@@ -1,0 +1,12 @@
+<div class="container-fluid text-center">
+  <!-- Thanks crime in sports / Shwarma man. -->
+  <h1>How is it you've come to arrive here?</h1>
+  <form>
+    <input placeholder="Ask a question!" #question />
+    <button type="button" class="btn btn-light" (click)="askQuestion(question.value)">Ask</button>
+  </form>
+  <div *ngIf="answer text-center">
+    {{answer}}
+  </div>
+
+</div>
